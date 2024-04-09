@@ -162,6 +162,18 @@ a {
     margin-top: 70px;
 }
 
+.clients .image-desc a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.clients .image-desc a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /*========== Guides ========== */
 
 .guides {
@@ -677,7 +689,7 @@ a {
     display: flex;
 }
 
-.footer .social .social-link{
+.footer .social .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -685,7 +697,7 @@ a {
     height: 28px;
 }
 
-.footer .social .social-link:hover{
+.footer .social .social-link:hover {
     background: #ebebeb;
     border-radius: 3px;
 }
