@@ -48,7 +48,15 @@ a {
 }
 
 /* Header */
-.header {
+.fixed-header {
+    padding-top: 26px;
+    background: #e6f0ff;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
     /* height: 100vh; */
@@ -58,7 +66,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -92,22 +101,22 @@ a {
 }
 
 /*========== Hero ========== */
-.hero-wrap {
-    margin-top: 13rem;
+.hero {
+    padding-top: 13rem;
 }
 
-.hero-wrap .info {
+.hero .info {
     width: 51%;
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
 }
-.hero-wrap .sub-title {
+.hero .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.018rem;
 }
 
-.hero-wrap h1 {
+.hero h1 {
     color: #000336;
     font-size: 6.3rem;
     font-weight: 700;
@@ -115,7 +124,7 @@ a {
     margin-top: 8px;
 }
 
-.hero-wrap .desc {
+.hero .desc {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
@@ -123,12 +132,12 @@ a {
     margin-top: 30px;
 }
 
-.hero-wrap .cta-hero {
+.hero .cta-hero {
     margin-top: 40px;
     padding: 18px 34px;
 }
 
-.hero-wrap .hero-img {
+.hero .hero-img {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
@@ -695,10 +704,10 @@ a {
     justify-content: center;
     width: 28px;
     height: 28px;
-    background: #F9F9F9;
+    background: #f9f9f9;
 }
 
-.footer .social .social-link + .social-link{
+.footer .social .social-link + .social-link {
     margin-left: 16px;
 }
 
